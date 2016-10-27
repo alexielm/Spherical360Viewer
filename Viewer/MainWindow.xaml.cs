@@ -49,7 +49,7 @@ namespace Spherical360Viewer
                 });
             Image.DownloadCompleted += new EventHandler((sender, e) => imageReady());
             Image.BeginInit();
-            Image.UriSource = new Uri(App.CommandLine, UriKind.Absolute);
+            Image.UriSource = new Uri(App.CommandLine, UriKind.Relative);
             Image.EndInit();
             if (!Image.IsDownloading)
             {
