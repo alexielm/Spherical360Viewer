@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spherical360Viewer", "Viewer\Spherical360Viewer.csproj", "{4CA8A80F-EFE4-4628-A305-919A20592941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petzold.Media3D", "Petzold.Media3D\Petzold.Media3D.csproj", "{BEBED159-4DB6-4550-8342-7F3607177B71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CA8A80F-EFE4-4628-A305-919A20592941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA8A80F-EFE4-4628-A305-919A20592941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA8A80F-EFE4-4628-A305-919A20592941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA8A80F-EFE4-4628-A305-919A20592941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEBED159-4DB6-4550-8342-7F3607177B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBED159-4DB6-4550-8342-7F3607177B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBED159-4DB6-4550-8342-7F3607177B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBED159-4DB6-4550-8342-7F3607177B71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
