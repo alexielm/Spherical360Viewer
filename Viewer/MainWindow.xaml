@@ -7,8 +7,8 @@
         xmlns:local="clr-namespace:Spherical360Viewer"
         mc:Ignorable="d"
         Title="Spherical 360 Viewer"
-        MouseDown="MouseDownHandler" MouseUp="MouseUpHandler" MouseMove="MouseMoveHandler" MouseWheel="MouseWheelHandler" TouchDown="Window_TouchDown">
-    <Grid>
+        MouseDown="MouseDownHandler" MouseUp="MouseUpHandler" MouseMove="MouseMoveHandler" MouseWheel="MouseWheelHandler" TouchDown="Window_TouchDown" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
+    <Grid  Width="2000" Height="1300">
         <Viewport3D x:Name="Viewer" Cursor="Hand">
             <pmg:Sphere x:Name="Wall" Slices="256" Radius="100" Center="0 0 0">
                 <pmg:Sphere.BackMaterial>
